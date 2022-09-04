@@ -17,11 +17,14 @@ header .searchBar i{
     border-radius: 4px;
 
 }
-header p{
+header .searchBar p{
     margin: 20px 0;
     text-align: center;
     font-size: var(--cuerpo-de-texto);
 
+}
+header .links{
+    display:none;
 }
 header .links ul{
     margin :0 0 20px;
@@ -38,4 +41,22 @@ header .burger i{
     padding: 10px;
     border-radius: 6px;
     font-size: var(--titulares);
+}
+/* tablet*/
+@media(min-width:461px){
+    header .links{
+        display: block;
+    }
+    header .burger{
+
+        display: none;
+    }
+    
+   
+
+}
+
+/*desktop*/
+@media(win-width:769px){
+
 }
